@@ -1,0 +1,40 @@
+{
+  "styleName": "Digital Neon Wireframe",
+  "background": {
+    "type": "gradient",
+    "direction": "horizontal",
+    "colors": [
+      "#0A1F33",
+      "#112B44"
+    ]
+  },
+  "mesh": {
+    "pattern": "DelaunayTriangulation",
+    "line": {
+      "color": "#00CFFF",
+      "width": 1.2,
+      "opacity": 0.6
+    }
+  },
+  "nodes": {
+    "shape": "circle",
+    "color": "#FFFFFF",
+    "radius": 2,
+    "glow": {
+      "enabled": true,
+      "radius": 8,
+      "intensity": 0.75
+    }
+  },
+  "sparks": {
+    "enabled": true,
+    "density": 0.1,
+    "sizeRange": [1, 3],
+    "color": "#00EFFF"
+  },
+  "compositionHints": {
+    "subjectSilhouette": "horse",
+    "motionEmphasis": true,
+    "motionBlurAmount": 0.2
+  }
+}

@@ -9,6 +9,9 @@ const PageLayout: FC<{children: ReactNode}> = (props) => {
             height={'100dvh'}
             width={'100vw'}
             alignItems={'center'}
+            sx={{
+                overflowY: 'auto',
+            }}
         >
             {children}
         </Stack>
