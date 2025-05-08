@@ -2,6 +2,7 @@ import PageLayout from "./app/components/layout/PageLayout.tsx";
 import {Typography, Button, Box} from "@mui/material";
 import JsonFileUploader from "./app/components/fileUploader/JsonFileUploader.tsx";
 import JsonEditorContainer from "./app/components/jsonEditor/JsonEditorContainer.tsx";
+import JsonViewer from "./app/components/jsonViewer/JsonViewer.tsx";
 import {useState} from "react";
 
 const App = () => {
@@ -69,9 +70,7 @@ const App = () => {
                             jsonString={jsonContent}
                             onUpdate={handleJsonUpdate}
                         />
-                        <Box>
-                            json here
-                        </Box>
+                        <JsonViewer jsonString={jsonContent} />
                     </Box>
 
                 </>
