@@ -466,6 +466,11 @@
     "@eslint/core" "^0.13.0"
     levn "^0.4.1"
 
+"@fontsource/comfortaa@^5.2.5":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/comfortaa/-/comfortaa-5.2.5.tgz#e7fc55642361f4d27af77f96a51209d50beee057"
+  integrity sha512-qpaTCLLabFwdBIwhGEDQNrhXIDOQ0ogk6l3ZJB4FUo77/3KdeRpqrXaPznW2x9o7oIo0l02oRl2ljSM+dpKOUg==
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"
